@@ -15,7 +15,7 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
-api_key = os.getenv("AIzaSyAfGkZ2JA2d-ZzYbLqDHPtMjoFrbmX6834")
+api_key = os.getenv("AIzaSyDJ4p7eMXT1JeYJVIuh2-qL7dCUD2dV9IM")
 
 genai.configure(api_key=api_key)
 #genai.configure(api_key=os.getenv("AIzaSyAfGkZ2JA2d-ZzYbLqDHPtMjoFrbmX6834"))
